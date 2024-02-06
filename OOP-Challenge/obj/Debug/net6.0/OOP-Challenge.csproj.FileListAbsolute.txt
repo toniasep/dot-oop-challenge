@@ -1,0 +1,15 @@
+Z:\DOT\challenge\OOP-Challenge\bin\Debug\net6.0\OOP-Challenge.exe
+Z:\DOT\challenge\OOP-Challenge\bin\Debug\net6.0\OOP-Challenge.deps.json
+Z:\DOT\challenge\OOP-Challenge\bin\Debug\net6.0\OOP-Challenge.runtimeconfig.json
+Z:\DOT\challenge\OOP-Challenge\bin\Debug\net6.0\OOP-Challenge.dll
+Z:\DOT\challenge\OOP-Challenge\bin\Debug\net6.0\OOP-Challenge.pdb
+Z:\DOT\challenge\OOP-Challenge\obj\Debug\net6.0\OOP-Challenge.csproj.AssemblyReference.cache
+Z:\DOT\challenge\OOP-Challenge\obj\Debug\net6.0\OOP-Challenge.GeneratedMSBuildEditorConfig.editorconfig
+Z:\DOT\challenge\OOP-Challenge\obj\Debug\net6.0\OOP-Challenge.AssemblyInfoInputs.cache
+Z:\DOT\challenge\OOP-Challenge\obj\Debug\net6.0\OOP-Challenge.AssemblyInfo.cs
+Z:\DOT\challenge\OOP-Challenge\obj\Debug\net6.0\OOP-Challenge.csproj.CoreCompileInputs.cache
+Z:\DOT\challenge\OOP-Challenge\obj\Debug\net6.0\OOP-Challenge.dll
+Z:\DOT\challenge\OOP-Challenge\obj\Debug\net6.0\refint\OOP-Challenge.dll
+Z:\DOT\challenge\OOP-Challenge\obj\Debug\net6.0\OOP-Challenge.pdb
+Z:\DOT\challenge\OOP-Challenge\obj\Debug\net6.0\OOP-Challenge.genruntimeconfig.cache
+Z:\DOT\challenge\OOP-Challenge\obj\Debug\net6.0\ref\OOP-Challenge.dll
