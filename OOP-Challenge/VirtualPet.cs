@@ -52,7 +52,7 @@ namespace OOP_Challenge
             Console.WriteLine($"{name} has been fed. Happiness level increased to {happinessLevel}. Energy level increased to {energyLevel}.");
         }
 
-        public void Play()
+        public virtual void Play()
         {
             happinessLevel += 15;
             energyLevel -= 20;

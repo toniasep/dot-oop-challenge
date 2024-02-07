@@ -7,6 +7,12 @@ namespace OOP_Challenge
             
         }
 
+        public override void Play()
+        {
+            SetHappinessLevel(HappinessLevel + 20);
+            SetEnergyLevel(EnergyLevel - 25);
+            Console.WriteLine($"{Name} is playing. Happiness level increased to {HappinessLevel}. Energy level decreased to {EnergyLevel}.");
+        }
         public void Bark()
         {
             SetHappinessLevel(HappinessLevel + 5);

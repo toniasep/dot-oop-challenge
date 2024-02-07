@@ -9,6 +9,7 @@
 
             myDog.Feed();
             myCat.Play();
+            myDog.Play();
             myDog.Sleep();
             myCat.Sleep();
             myDog.Bark();
