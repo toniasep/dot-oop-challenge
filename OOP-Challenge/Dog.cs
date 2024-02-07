@@ -6,6 +6,13 @@ namespace OOP_Challenge
         {
             
         }
+
+        public void Bark()
+        {
+            SetHappinessLevel(HappinessLevel + 5);
+            SetEnergyLevel(EnergyLevel - 5);
+            Console.WriteLine($"{Name} is barking. Happiness level increased to {HappinessLevel}. Energy level decreased to {EnergyLevel}.");
+        }
         
     }
 }

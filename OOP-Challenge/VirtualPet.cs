@@ -35,6 +35,15 @@ namespace OOP_Challenge
             get { return energyLevel; }
         }
 
+        public void SetHappinessLevel(int happinessLevel)
+        {
+            this.happinessLevel = happinessLevel;
+        }
+
+        public void SetEnergyLevel(int energyLevel)
+        {
+            this.energyLevel = energyLevel;
+        }
 
         public void Feed()
         {

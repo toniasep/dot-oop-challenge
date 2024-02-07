@@ -6,7 +6,13 @@ namespace OOP_Challenge
         {
             
         }
-
+        
+        public void Meow()
+        {
+            SetHappinessLevel(HappinessLevel + 5);
+            SetEnergyLevel(EnergyLevel - 5);
+            Console.WriteLine($"{Name} is meowing. Happiness level increased to {HappinessLevel}. Energy level decreased to {EnergyLevel}.");
+        }
 
     }
 }
