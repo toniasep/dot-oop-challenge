@@ -11,13 +11,21 @@ namespace OOP_Challenge
         {
             SetHappinessLevel(HappinessLevel + 20);
             SetEnergyLevel(EnergyLevel - 25);
-            Console.WriteLine($"{Name} is playing. Happiness level increased to {HappinessLevel}. Energy level decreased to {EnergyLevel}.");
+            Console.WriteLine($"{Name} is playing.");
+            PrintSummary();
         }
         public void Bark()
         {
             SetHappinessLevel(HappinessLevel + 5);
             SetEnergyLevel(EnergyLevel - 5);
-            Console.WriteLine($"{Name} is barking. Happiness level increased to {HappinessLevel}. Energy level decreased to {EnergyLevel}.");
+            Console.WriteLine($"{Name} is barking.");
+            PrintSummary();
+        }
+
+        
+        public override void PrintSummary()
+        {
+            Console.WriteLine($"Dog: {Name}, Age: {Age}, Happiness Level: {HappinessLevel}, Energy Level: {EnergyLevel}.");
         }
         
     }

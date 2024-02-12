@@ -49,21 +49,29 @@ namespace OOP_Challenge
         {
             happinessLevel += 10;
             energyLevel += 50;
-            Console.WriteLine($"{name} has been fed. Happiness level increased to {happinessLevel}. Energy level increased to {energyLevel}.");
+            Console.WriteLine($"{name} is eating.");
+            PrintSummary();
         }
 
         public virtual void Play()
         {
             happinessLevel += 15;
             energyLevel -= 20;
-            Console.WriteLine($"{name} is playing. Happiness level increased to {happinessLevel}. Energy level decreased to {energyLevel}.");
+            Console.WriteLine($"{name} is playing.");
+            PrintSummary();
         }
 
         public void Sleep()
         {
             happinessLevel += 5;
             energyLevel += 10;
-            Console.WriteLine($"{name} is sleeping. Happiness level increased to {happinessLevel}. Energy level increased to {energyLevel}.");
+            Console.WriteLine($"{name} is sleeping.");
+            PrintSummary();
+        }
+
+        public virtual void PrintSummary()
+        {
+            Console.WriteLine($"Name: {name}, Age: {age}, Happiness Level: {happinessLevel}, Energy Level: {energyLevel}.");
         }
         
 
