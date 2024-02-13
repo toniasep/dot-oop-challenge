@@ -14,13 +14,15 @@ namespace OOP_Challenge
             Console.WriteLine($"{Name} is playing.");
             PrintSummary();
         }
-        public void Meow()
+        
+        public override void MakeSound()
         {
             SetHappinessLevel(HappinessLevel + 5);
             SetEnergyLevel(EnergyLevel - 5);
             Console.WriteLine($"{Name} is meowing.");
             PrintSummary();
         }
+
         public override void PrintSummary()
         {
             Console.WriteLine($"Cat: {Name}, Age: {Age}, Happiness Level: {HappinessLevel}, Energy Level: {EnergyLevel}.");

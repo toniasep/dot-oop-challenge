@@ -12,8 +12,8 @@
             myDog.Play();
             myDog.Sleep();
             myCat.Sleep();
-            myDog.Bark();
-            myCat.Meow();
+            myDog.MakeSound();
+            myCat.MakeSound();
 
             Console.WriteLine("=====================================");
             myDog.PrintSummary();

@@ -73,6 +73,14 @@ namespace OOP_Challenge
         {
             Console.WriteLine($"Name: {name}, Age: {age}, Happiness Level: {happinessLevel}, Energy Level: {energyLevel}.");
         }
+
+        public virtual void MakeSound()
+        {
+            happinessLevel += 5;
+            energyLevel -= 5;
+            Console.WriteLine($"{name} is making a sound.");
+            PrintSummary();
+        }
         
 
 

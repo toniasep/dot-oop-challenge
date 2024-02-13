@@ -14,7 +14,7 @@ namespace OOP_Challenge
             Console.WriteLine($"{Name} is playing.");
             PrintSummary();
         }
-        public void Bark()
+        public override void MakeSound()
         {
             SetHappinessLevel(HappinessLevel + 5);
             SetEnergyLevel(EnergyLevel - 5);
